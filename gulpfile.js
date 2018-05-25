@@ -14,7 +14,7 @@ gulp.task('copycss', function() {
 });
 
 gulp.task('sass', function() {
-	return gulp.src('app/scss/**/*.scss')
+	return gulp.src('app/scss/*.scss')
 		.pipe(sass())
 		.pipe(gulp.dest('dist/css/'))
 });
