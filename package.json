@@ -19,5 +19,14 @@
     "lexington"
   ],
   "author": "ryan borja",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "bootstrap": "^4.1.1",
+    "express": "^4.16.3",
+    "gulp": "^4.0.0",
+    "gulp-sass": "^4.0.1",
+    "jquery": "^3.3.1",
+    "popper.js": "^1.14.3"
+  }
 }
